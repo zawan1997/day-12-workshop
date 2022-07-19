@@ -30,7 +30,9 @@ public class WeatherController {
 
     @GetMapping("{city}")
     public String weather2(
+        //will create the / /
         @PathVariable(name="city", required= true) String city,
+        //will create a querry string. ?
         @RequestParam(name="units", defaultValue = "kilometerrs") String units,
         Model model
     ) {

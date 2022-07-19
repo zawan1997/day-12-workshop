@@ -28,6 +28,12 @@ public class CartService {
         itm.setQuantity(5);
         lstItems.add(itm);
 
+        itm = new Item();
+        itm.setItemName("Pear");
+        itm.setQuantity(7);
+        lstItems.add(itm);
+
+
 
         return lstItems;
         
