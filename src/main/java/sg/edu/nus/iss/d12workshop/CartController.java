@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 //how are we going to reach this class?
-@RequestMapping(path = {"/cart "})
+@RequestMapping(path = {"/cart"})
 public class CartController {
 
     //to allow Controller to be dynamic not just static
