@@ -1,5 +1,5 @@
 package sg.edu.nus.iss.d12workshop;
-
+//#1
 public class Item {
     // Creating model. Attributes should be private
     //Controller and Service class will interact with Model to produce VIEW
